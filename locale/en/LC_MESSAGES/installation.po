@@ -1,110 +1,127 @@
-# SOME DESCRIPTIVE TITLE.
+# Translation of patacrep-doc to English.
 # Copyright (C) 2016, L'équipe Patacrep
 # This file is distributed under the same license as the Patacrep package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Patacrep 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 23:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2016-06-28 21:38+0200\n"
+"PO-Revision-Date: 2016-06-28 23:09+0100\n"
+"Last-Translator: Louis Hyenne <louis.hyenne.diff@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: ../../installation.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Install"
 
 #: ../../installation.rst:5
 msgid "Dépendances"
-msgstr ""
+msgstr "Dependencies"
 
 #: ../../installation.rst:7
 msgid ""
-"`Patacrep` est un projet reposant sur beaucoup de techniques, il a donc "
-"un certain nombre de dépendances à installer pour le faire fonctionner. "
-"Ces dépendances sont les mêmes pour tous les systèmes d'exploitation, "
-"mais la méthode d'installation diffère. Ces dépendances sont les "
-"suivantes :"
+"`Patacrep` est un projet reposant sur beaucoup de techniques, il a donc un "
+"certain nombre de dépendances à installer pour le faire fonctionner. Ces "
+"dépendances sont les mêmes pour tous les systèmes d'exploitation, mais la "
+"méthode d'installation diffère. Ces dépendances sont les suivantes :"
 msgstr ""
+"`Patacrep` is a project based on many techniques; thus, it requires the "
+"install of a number of dependencies to work. These dependencies are the same "
+"for all operating systems, but the install procedure may be different. These "
+"dependencies are the following:"
 
 #: ../../installation.rst:12
 msgid "Python 3.3 ou plus récent. **Python 2 n'est pas supporté** ;"
-msgstr ""
+msgstr "Python 3.3 or later. **Python 2 is not supported**;"
 
 #: ../../installation.rst:13
 msgid "LaTeX, et en particulier ``lualatex`` ;"
-msgstr ""
+msgstr "LaTeX, and especially ``lualatex``;"
 
 #: ../../installation.rst:15
 msgid ""
 "`Patacrep` a aussi des dépendances optionnelles, qui peuvent ajouter des "
 "fonctionnalités, mais ne sont pas obligatoires :"
 msgstr ""
+"`Patacrep` also has optional dependencies, which add functionalities but are "
+"not required:"
 
 #: ../../installation.rst:18
 msgid "Lilypond, pour compiler des partitions."
-msgstr ""
+msgstr "Lilypond, to compile scores."
 
 #: ../../installation.rst:21
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: ../../installation.rst:23
 msgid ""
 "Il n'existe pas (pour le moment ?) de paquet pour les différentes "
-"distributions. En attendant, ``patacrep`` peut être installé en utilisant"
-" pip (éventuellement dans un `virtualenv "
-"<http://virtualenv.readthedocs.org>`__, pour garder un environnement "
-"d'installation propre). Voir la :ref:`section suivante <install_pip>` "
-"pour les instructions."
+"distributions. En attendant, ``patacrep`` peut être installé en utilisant "
+"pip (éventuellement dans un `virtualenv <http://virtualenv.readthedocs."
+"org>`__, pour garder un environnement d'installation propre). Voir la :ref:"
+"`section suivante <install_pip>` pour les instructions."
 msgstr ""
+"There is (for the moment?) no package for the various distributions. "
+"Instead, ``patacrep`` can be installed using pip (possibly in a `virtualenv "
+"<http://virtualenv.readthedocs.org>`__, to keep a clean install "
+"environment). See :ref:`next section <install_pip>` for instructions."
 
 #: ../../installation.rst:29
-msgid "Voici quelques informations supplémentaires pour certaines distributions."
-msgstr ""
+msgid ""
+"Voici quelques informations supplémentaires pour certaines distributions."
+msgstr "Here are some additional information for the various distributions."
 
 #: ../../installation.rst:32
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: ../../installation.rst:34
 msgid ""
-"Il n'existe pas (encore ?) de paquet debian pour `patacrep`. Les paquets "
-"à installer sous Debian (et ses dérivées comme Ubuntu) sont :"
+"Il n'existe pas (encore ?) de paquet debian pour `patacrep`. Les paquets à "
+"installer sous Debian (et ses dérivées comme Ubuntu) sont :"
 msgstr ""
+"There is (yet?) no `patacrep` debian package. The packages to install in "
+"Debian (and its derivatives like Ubuntu) are:"
 
 #: ../../installation.rst:37
 msgid "Python 3.4"
-msgstr ""
+msgstr "Python 3.4"
 
 #: ../../installation.rst:39
 msgid ""
-"Installer les paquets nécessaires (pour une installation de `patacrep` "
-"sans :ref:`virtualenv <virtualenv>`):"
+"Installer les paquets nécessaires (pour une installation de `patacrep` sans :"
+"ref:`virtualenv <virtualenv>`):"
 msgstr ""
+"Install the required packages (for a `paracrep` install with no :ref:"
+"`virtualenv <virtualenv>`):"
 
 #: ../../installation.rst:45
 msgid ""
-"Installer les paquets nécessaires (pour une installation de `patacrep` "
-"avec :ref:`virtualenv <virtualenv>`):"
+"Installer les paquets nécessaires (pour une installation de `patacrep` avec :"
+"ref:`virtualenv <virtualenv>`):"
 msgstr ""
+"Install the required packages (for a `paracrep` install with :ref:"
+"`virtualenv <virtualenv>`):"
 
 #: ../../installation.rst:51
 msgid "LaTeX :"
-msgstr ""
+msgstr "LaTeX:"
 
 #: ../../installation.rst:53
 msgid ""
-"Nécessaires : ``texlive texlive-latex-base texlive-latex-recommended "
-"texlive-latex-extra``"
+"Nécessaires : ``texlive texlive-latex-base texlive-latex-recommended texlive-"
+"latex-extra``"
 msgstr ""
+"Required: ``texlive texlive-latex-base texlive-latex-recommended texlive-"
+"latex-extra``"
 
 #: ../../installation.rst:54
 msgid ""
@@ -112,180 +129,214 @@ msgid ""
 "english texlive-lang-french texlive-lang-portuguese texlive-lang-spanish "
 "texlive-fonts-extra``"
 msgstr ""
+"Optional for `patacrep`, required for `patadata`: ``texlive-lang-english "
+"texlive-lang-french texlive-lang-portuguese texlive-lang-spanish texlive-"
+"fonts-extra``"
 
 #: ../../installation.rst:56
 msgid "Lilypond (optionnel) : ``lilypond``"
-msgstr ""
+msgstr "Lilypond (optionall) : ``lilypond``"
 
 #: ../../installation.rst:58
 msgid ""
-"Il est aussi possible, en utilisant `stdeb "
-"<http://github.com/astraw/stdeb>`_, de créer un paquet :file:`.deb` à la "
-"volée::"
+"Il est aussi possible, en utilisant `stdeb <http://github.com/astraw/"
+"stdeb>`_, de créer un paquet :file:`.deb` à la volée::"
 msgstr ""
+"It is also possible to create a :file:`.deb` package on the fly, using "
+"`stdeb <http://github.com/astraw/stdeb>`_::"
 
 #: ../../installation.rst:64
 msgid "CentOS 6.5"
-msgstr ""
+msgstr "CentOS 6.5"
 
 #: ../../installation.rst:66
 msgid ""
-"Sur CentOS 6.5, un certain nombre de logiciels par défaut sont trop "
-"anciens pour faire fonctionner Patacrep correctement. En particulier, "
-"vous devriez utiliser une version récente de TeXLive, et installer "
-"ghostscript en version 9."
+"Sur CentOS 6.5, un certain nombre de logiciels par défaut sont trop anciens "
+"pour faire fonctionner Patacrep correctement. En particulier, vous devriez "
+"utiliser une version récente de TeXLive, et installer ghostscript en version "
+"9."
 msgstr ""
+"On CentOS 6.5, a number of default installed programs are too old for "
+"Patacrep to work properly. In particular, you should use a recent version of "
+"TeXLive and install the version 9 of ghostscript."
 
 #: ../../installation.rst:70
 msgid "MacOSX"
-msgstr ""
+msgstr "MacOSX"
 
 #: ../../installation.rst:80
 msgid "Vous devrez installer les dépendaces suivantes:"
-msgstr ""
+msgstr "You will need to install the following dependencies:"
 
 #: ../../installation.rst:73 ../../installation.rst:86
 msgid "`Python 3 <https://www.python.org/download/>`_ ;"
-msgstr ""
+msgstr "`Python 3 <https://www.python.org/download/>`_;"
 
 #: ../../installation.rst:74
 msgid ""
 "LaTeX. La distribution `MacTeX <https://tug.org/mactex/>`_ est la plus "
-"simple à installer. Une installation personnalisée de TeXLive "
-"fonctionnera aussi si vous savez ce que vous faites."
+"simple à installer. Une installation personnalisée de TeXLive fonctionnera "
+"aussi si vous savez ce que vous faites."
 msgstr ""
+"LaTeX. The `MacTeX <https://tug.org/mactex/>`_ distribution is the easiest "
+"to install. A custom install of TeXLive will also work if you know what you "
+"are doing."
 
 #: ../../installation.rst:75
 msgid ""
-"Lilypond peut être utile si vous souhaitez compiler les partitions dans "
-"les chansons. Ce n'est toutefois pas une dépendance obligatoire. Vous "
-"pouvez le télécharger à `cette adresse "
-"<http://www.lilypond.org/download.fr.html>`_. Décompressez l'archive, "
-"puis placez-la dans :file:`/Applications`. Vous devrez ajouter un lien "
-"vers lilypond pour que `songbook` puisse le trouver en lançant les "
-"commandes suivantes dans un Terminal : ::"
+"Lilypond peut être utile si vous souhaitez compiler les partitions dans les "
+"chansons. Ce n'est toutefois pas une dépendance obligatoire. Vous pouvez le "
+"télécharger à `cette adresse <http://www.lilypond.org/download.fr.html>`_. "
+"Décompressez l'archive, puis placez-la dans :file:`/Applications`. Vous "
+"devrez ajouter un lien vers lilypond pour que `songbook` puisse le trouver "
+"en lançant les commandes suivantes dans un Terminal : ::"
 msgstr ""
+"Lilypond can be useful if you wish to compile scores inside the songs. "
+"However, this is not a necessary dependency. You can download it `here "
+"<http://www.lilypond.org/download.fr.html>`_. Uncompress the archive, then "
+"put it in :file:`/Applications`. You will have to add a link to lilypond for "
+"`songbook` to find it by running the following commands in a terminal: ::"
 
 #: ../../installation.rst:80
-msgid "La première commande va vous demander votre mot de passe administrateur."
-msgstr ""
+msgid ""
+"La première commande va vous demander votre mot de passe administrateur."
+msgstr "The first command will ask for your administrator password."
 
 #: ../../installation.rst:83
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../installation.rst:88
 msgid "Voici où vous pourez trouver les dépendances nécessaires :"
-msgstr ""
+msgstr "Here you will find the necessary dependencies:"
 
 #: ../../installation.rst:87
 msgid "`MikTeX <http://miktex.org/download>`_ pour avoir accès a LaTeX ;"
-msgstr ""
+msgstr "`MikTeX <http://miktex.org/download>`_ to use LaTeX;"
 
 #: ../../installation.rst:88
 msgid "`Lilypond <http://www.lilypond.org/windows.fr.html>`_."
-msgstr ""
+msgstr "`Lilypond <http://www.lilypond.org/windows.fr.html>`_."
 
 #: ../../installation.rst:93
 msgid "Installation depuis PyPi"
-msgstr ""
+msgstr "Install from PyPi"
 
 #: ../../installation.rst:95
 msgid ""
 "Une fois les dépendances installées, vous pouvez vérifier que tout s'est "
 "bien passé en lançant les commandes ::"
 msgstr ""
+"Once you have installed the dependencies, you can check whether everything "
+"ended correctly by running the commands ::"
 
 #: ../../installation.rst:103
 msgid ""
 "Si le numéro de version s'affiche, tout va bien, si vous avez une erreur "
 "``command not found``, il y a un problème."
 msgstr ""
+"If the version number is printed, it's OK, if you get a ``command not "
+"found`` error, there is a problem."
 
 #: ../../installation.rst:105
 msgid ""
-"Pour la suite, la bibliothèque `Patacrep` et le programme "
-":command:`songbook` sont disponibles sur le `Python Packages Index "
-"<http://pypi.python.org/pypi/patacrep>`_, vous pouvez donc les installer "
-"avec ``pip``."
+"Pour la suite, la bibliothèque `Patacrep` et le programme :command:"
+"`songbook` sont disponibles sur le `Python Packages Index <http://pypi."
+"python.org/pypi/patacrep>`_, vous pouvez donc les installer avec ``pip``."
 msgstr ""
+"For the following, the `Patacrep` library and the :command:`songbook` "
+"program are available on the `Python Packages Index <http://pypi.python.org/"
+"pypi/patacrep>`_, you can thus install them with ``pip``."
 
 #: ../../installation.rst:108
 msgid "Sans :ref:`virtualenv <virtualenv>`"
-msgstr ""
+msgstr "With no :ref:`virtualenv <virtualenv>`"
 
 #: ../../installation.rst:114
 msgid "Puis pour tester si tout a bien fonctionné ::"
-msgstr ""
+msgstr "To check whether everything went right ::"
 
 #: ../../installation.rst:121
 msgid "Avec :ref:`virtualenv <virtualenv>`"
-msgstr ""
+msgstr "With :ref:`virtualenv <virtualenv>`"
 
 #: ../../installation.rst:123
 msgid ""
-"Pour éviter de mélanger les installation système (par `apt`, `yum` ou "
-"autre) et les installations de `pip`, il est recommandé d'installer "
-"l'application localement dans un `virtualenv`:"
+"Pour éviter de mélanger les installation système (par `apt`, `yum` ou autre) "
+"et les installations de `pip`, il est recommandé d'installer l'application "
+"localement dans un `virtualenv`:"
 msgstr ""
+"In order to to avoid mixing system installs (through `apt`, `yum` or else) "
+"and `pip` installs, it is recommended to locally install the application in "
+"a `virtualenv`:"
 
 #: ../../installation.rst:141
 msgid ""
-"Si vous optez pour une installation dans un `virtualenv`, il faudra "
-"lancer la commande"
+"Si vous optez pour une installation dans un `virtualenv`, il faudra lancer "
+"la commande"
 msgstr ""
+"If you choose an install in a `virtualenv`, you will have to run the command"
 
 #: ../../installation.rst:148
 msgid "avant chaque utilisation de :command:`songbook` ou de `patacrep`."
-msgstr ""
+msgstr "before every use of :command:`songbook` or `patacrep`."
 
 #: ../../installation.rst:151
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: ../../installation.rst:157
-msgid "Si vous avez des erreurs lors de l'installation, deux cas sont possibles :"
-msgstr ""
+msgid ""
+"Si vous avez des erreurs lors de l'installation, deux cas sont possibles :"
+msgstr "If you get errors during the install, two cases are possible:"
 
 #: ../../installation.rst:154
 msgid ""
-"erreur ``permission denied`` : vous n'avez pas de droits en écriture dans"
-" :file:`/usr/bin`. Ajoutez ``sudo`` devant la commande fautive, et "
-"relancez-la (``sudo pip3 install patacrep``). Un mot de passe "
-"administrateur vous sera demandé."
+"erreur ``permission denied`` : vous n'avez pas de droits en écriture dans :"
+"file:`/usr/bin`. Ajoutez ``sudo`` devant la commande fautive, et relancez-la "
+"(``sudo pip3 install patacrep``). Un mot de passe administrateur vous sera "
+"demandé."
 msgstr ""
+"``permission denied`` error: you don't have writing permissions in :file:`/"
+"usr/bin`. Add ``sudo`` before the involved command, and run it again (``sudo "
+"pip3 install patacrep``). You will be asked for an administrator password."
 
 #: ../../installation.rst:155
 msgid ""
-"``songbook: command not found``, c'est que :file:`/usr/local/bin` n'est "
-"pas dans votre ``PATH``. Pour l'ajouter, exécutez la commande ::"
+"``songbook: command not found``, c'est que :file:`/usr/local/bin` n'est pas "
+"dans votre ``PATH``. Pour l'ajouter, exécutez la commande ::"
 msgstr ""
+"``songbook: command not found`` means that :file:`/usr/local/bin` ins not in "
+"your ``PATH``. To add it, run the command ::"
 
 #: ../../installation.rst:162
 msgid "Installation de la version de développement"
-msgstr ""
+msgstr "Development version install"
 
 #: ../../installation.rst:164
 msgid ""
-"Pour obtenir la version de développement, il est possible de télécharger "
-"les sources en utilisant `git <http://git-scm.com>`_ : ::"
+"Pour obtenir la version de développement, il est possible de télécharger les "
+"sources en utilisant `git <http://git-scm.com>`_ : ::"
 msgstr ""
+"To get the development version, it is possible to download the sources using "
+"`git <http://git-scm.com>`_ : ::"
 
 #: ../../installation.rst:173
 msgid "Pour mettre à jour la version de développement, utilisez simplement ::"
-msgstr ""
+msgstr "To update the development version, just use ::"
 
 #: ../../installation.rst:179
 msgid "Depuis le dossier :file:`patacrep`"
-msgstr ""
+msgstr "From the :file:`patacrep` folder"
 
 #: ../../installation.rst:183
 msgid "Mise à jour"
-msgstr ""
+msgstr "Update"
 
 #: ../../installation.rst:185
 msgid ""
-"Pour effectuer une mise à jour de `Patacrep`, vérifiez que les "
-"dépendances sont à jour, puis lancez la commande ::"
+"Pour effectuer une mise à jour de `Patacrep`, vérifiez que les dépendances "
+"sont à jour, puis lancez la commande ::"
 msgstr ""
-
+"To update `Patacrep`, check whether the dependencies are up-to-date, and "
+"then run the command ::"
