@@ -1,9 +1,14 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, L'équipe Patacrep
+# This file is distributed under the same license as the Patacrep package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Patacrep 4.0\n"
+"Project-Id-Version: Patacrep 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"POT-Creation-Date: 2016-06-28 23:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,71 +151,4 @@ msgstr ""
 #: ../../more/content.rst:111
 msgid "Notre plugin est maintenant fonctionnel et réagit au mot clé ``foo``."
 msgstr ""
-
-#~ msgid ""
-#~ "Dans toute la suite, nous allons "
-#~ "créer un plugin :py:mod:`foo`, associé "
-#~ "au mot-clef ``foo``, qui écrit "
-#~ "dans le recueil les arguments et "
-#~ "contenu associé, quasiment sans traitement."
-#~ " Ce plugin se présente sous la "
-#~ "forme d'un fichier :file:`foo.py` (le "
-#~ "nom de fichier est libre), présent "
-#~ "dans un sous répertoire :file:`python/content`"
-#~ " d'un :file:`datadir`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Lors de la compilation du recueil, "
-#~ "lors de l'analyse de la variable "
-#~ "``content`` du fichier :file:`.sb`, lorsqu'un"
-#~ " de ces mots-clefs est rencontré, "
-#~ "la fonction :py:func:`parse` correspondante "
-#~ "est appelée."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Plus de détails sur cette classe "
-#~ "(ainsi que sur les autres méthodes "
-#~ "utilisées) sont disponibles dans le "
-#~ "docstring de `cette classe TODO(remplacer "
-#~ "le lien par le blob vers la "
-#~ "version 4.0.0) "
-#~ "<https://github.com/patacrep/patacrep/blob/master/patacrep/content/__init__.py#L84>`_."
-#~ msgstr ""
-
-#~ msgid "`contentlist`"
-#~ msgstr ""
-
-#~ msgid "la suite de la liste du contenu"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ainsi, si le contenu du recueil "
-#~ "comprend ``[\"foo(bar)\", \"one\", \"two\", "
-#~ "\"three\"]``, notre fonction :py:func:`parse` "
-#~ "sera appelée avec comme arguments "
-#~ ":samp:`parse('foo', 'bar', ['one', 'two', "
-#~ "'three'], config)`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Cette fonction doit retourner une liste"
-#~ " (éventuellement vide) d'objets de classe"
-#~ " :py:class:`content.Content` (ou une de ces"
-#~ " sous-classes). Ces objets seront "
-#~ "intégrés au recueil (en utilisant "
-#~ "principalement leur méthode "
-#~ ":py:meth:`content.Content.render`) dans l'ordre dans"
-#~ " lequel ils apparaissent dans cette "
-#~ "liste."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Notre plugin est maintenant fonctionnel. "
-#~ "Il va être appelé si la variable"
-#~ " ``content`` du recueil contient par "
-#~ "exemple ``[\"foo(bar)\", \"one\", \"two\", "
-#~ "\"three\"]``."
-#~ msgstr ""
 

@@ -1,9 +1,14 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, L'équipe Patacrep
+# This file is distributed under the same license as the Patacrep package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Patacrep 4.0\n"
+"Project-Id-Version: Patacrep 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"POT-Creation-Date: 2016-06-28 23:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,39 +175,4 @@ msgid ""
 " seul carnet, il est possible de se placer dans la racine de `patadata` "
 "et d'exécuter ::"
 msgstr ""
-
-#~ msgid ""
-#~ "Le programme :command:`songbook` est une "
-#~ "interface minimale à la bibliothèque "
-#~ ":py:mod:`patacrep` : il permet de "
-#~ "compiler un recueil à partir du "
-#~ "fichier :file:`.sb` (pour des programmes "
-#~ "qui permettent de manipuler ce fichier"
-#~ " :file:`.sb`, ou les chansons, voir "
-#~ ":ref:`patagui` ou :ref:`patanet`)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "L'argument obligatoire est le nom d'un"
-#~ " fichier :file:`.sb`, qui est compilé "
-#~ "en un recueil de chansons. Les "
-#~ "options optionnelles sont les suivantes."
-#~ msgstr ""
-
-#~ msgid "``%cmd``"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Étape spéciale : la suite d'une "
-#~ "chaîne commençant par le signe ``%`` "
-#~ "sera exécutée dans un shell."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Par exemple, pour compiler l'ensemble "
-#~ "des chansons de ce répertoire en "
-#~ "un seul recueil, il est possible "
-#~ "de se placer dans la racine de "
-#~ "`patadata` et d'exécuter ::"
-#~ msgstr ""
 

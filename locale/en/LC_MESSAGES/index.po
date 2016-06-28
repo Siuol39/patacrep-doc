@@ -1,9 +1,14 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, L'équipe Patacrep
+# This file is distributed under the same license as the Patacrep package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Patacrep 4.0\n"
+"Project-Id-Version: Patacrep 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"POT-Creation-Date: 2016-06-28 23:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,40 +248,4 @@ msgid ""
 "L'utilisation pour les cas de base est décrite dans la section "
 ":ref:`templates`."
 msgstr ""
-
-#~ msgid "Projet ``Patacrep``"
-#~ msgstr ""
-
-#~ msgid "Présentation"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ce projet fournit des outils pour "
-#~ "compiler un carnet de chants en "
-#~ "LaTeX (en utilisant le `paquet songs "
-#~ "<http://songs.sourceforge.net/>`_)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Chaque chanson peut être écrite en "
-#~ "n'utilisant qu'un sous-ensemble de "
-#~ "commandes LaTeX, et des fonctionnalités "
-#~ "de haut niveau permettent une "
-#~ "manipulation aisée du contenu."
-#~ msgstr ""
-
-#~ msgid "Table des matières"
-#~ msgstr ""
-
-#~ msgid "Index et tables"
-#~ msgstr ""
-
-#~ msgid ":ref:`genindex`"
-#~ msgstr ""
-
-#~ msgid ":ref:`modindex`"
-#~ msgstr ""
-
-#~ msgid ":ref:`search`"
-#~ msgstr ""
 
