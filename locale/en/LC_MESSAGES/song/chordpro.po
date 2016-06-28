@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, L'équipe Patacrep
+# This file is distributed under the same license as the Patacrep package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Patacrep 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../song/chordpro.rst:4
+msgid "Chordpro"
+msgstr ""
+
+#: ../../song/chordpro.rst:6
+msgid ""
+"Le format ChordPro consiste à insérer les accords entre crochets au "
+"milieu des paroles, juste avant l’endroit où ils doivent être joués. Lors"
+" de la compilation, les accords sont disposés au dessus du texte qui suit"
+" immédiatement. D'autres informations peuvent être spécifiées entre "
+"accolades (le titre, l'artiste, le début du refrain...)."
+msgstr ""
+
+#: ../../song/chordpro.rst:12
+msgid "Exemple"
+msgstr ""
+
+#: ../../song/chordpro.rst:68
+msgid "Directives"
+msgstr ""
+
+#: ../../song/chordpro.rst:70
+msgid "TODO"
+msgstr ""
+
+#: ../../song/chordpro.rst:72
+msgid ""
+"Tutoriels externes: `Qu'est ce qu'une tablature au format Chordpro ? (par"
+" oukelelatab) <http://oukelelatab.free.fr/index.php?static3/le-format-"
+"chordpro>`_"
+msgstr ""
+
+#: ../../song/chordpro.rst:77
+msgid "Outils externes"
+msgstr ""
+
+#: ../../song/chordpro.rst:79
+msgid ""
+"Il existe différents outils en ligne pour convertir des textes bruts au "
+"format chordpro :"
+msgstr ""
+
+#: ../../song/chordpro.rst:81
+msgid "`Song Formater (par UkeGeeks) <http://ukegeeks.com/tools/songformater>`_"
+msgstr ""
+

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, L'équipe Patacrep
+# This file is distributed under the same license as the Patacrep package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Patacrep 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../book/introduction.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../book/introduction.rst:4
+msgid ""
+"Un carnet est un ensemble de chansons qui peut peut être accompagné de "
+"divers éléments : index des chansons ou auteurs, page de titre, liste "
+"d'accords, préface, etc."
+msgstr ""
+
+#: ../../book/introduction.rst:8
+msgid ""
+"Un carnet est décrit par un fichier :file:`.yaml` (détaillé :ref:`ci-"
+"après <yaml>`). Il est généré par ``songbook`` en assemblant des fichiers"
+" de chansons :file:`.csg` (ou :file:`.tsg`), des templates :file:`.tex`, "
+"des fichiers LaTeX :file:`.tex`, des images, etc. Tout ce contenu "
+"provient de dossiers de donnée appelés :ref:`datadir <datadir>`."
+msgstr ""
+
+#: ../../book/introduction.rst:13
+msgid ""
+"Un carnet fini, au format PDF, est l'intégration d'un contenu dans une "
+"mise en page particulière. Les options qui gouvernent cette mise en page "
+"sont principalement décrites dans les :ref:`templates <layout>`. Les "
+"différentes manières d'ajouter du contenu à un carnet sont décrites dans "
+"la section :ref:`content`."
+msgstr ""
+
+#: ../../book/introduction.rst:21
+msgid "Exemple de fichier :file:`.yaml`"
+msgstr ""
+
+#: ../../book/introduction.rst:23
+msgid ""
+"Un exemple de fichier :file:`.yaml` est fourni `avec le code source "
+"<https://github.com/patacrep/patacrep/blob/4b801c6b90a2c225668ead4b47442f344f94ab80/examples/example.yaml>`_"
+" :"
+msgstr ""
+
+#: ../../book/introduction.rst:81
+msgid "Syntaxe des fichiers :file:`.yaml`"
+msgstr ""
+
+#: ../../book/introduction.rst:83
+msgid ""
+"Un fichier :file:`.yaml` est écrit au format `YAML <http://yaml.org/>`__."
+" Le format YAML est un type de fichier texte dans lequel on représente "
+"des information de trois manières différentes :"
+msgstr ""
+
+#: ../../book/introduction.rst:86
+msgid ""
+"les listes d'éléments ordonnés : chaque élément commence sur une nouvelle"
+" ligne, précédé d'un tiret ``-``. Tous les élements d'une même liste "
+"doivent avoir la même indentation (décalage depuis le bord gauche)."
+msgstr ""
+
+#: ../../book/introduction.rst:87
+msgid ""
+"les tableaux associatifs composés de multiples *clef: valeur*, les clefs "
+"étant la plupart du temps des chaînes, et les valeurs pouvant être "
+"n'importe quel type (une liste, un autre tableau associatif, une donnée "
+"scalaire)."
+msgstr ""
+
+#: ../../book/introduction.rst:88
+msgid ""
+"les données scalaires : chaînes de charactère (délimitées par des "
+"guillemets anglais ``\"...\"``), nombre, booléen (``yes``/``no``)."
+msgstr ""
+
+#: ../../book/introduction.rst:91
+msgid ""
+"Le fichier :file:`.yaml` contient un tableau associatif, dont les clefs "
+"sont les noms d'options, et les valeurs associées sont les valeurs de ces"
+" options. Le type des valeurs dépend de l'option considérée. Les sections"
+" sur le :ref:`contenu des carnets <content>` et sur la :ref:`mise en page"
+" <layout>` contiennent les détails concernant les différentes options."
+msgstr ""
+
+#: ../../book/introduction.rst:98
+msgid "Compiler un fichier :file:`.yaml`"
+msgstr ""
+
+#: ../../book/introduction.rst:100
+msgid ""
+"Le fichier :file:`carnet.yaml` peut être compilé (*ie* transformé en "
+"fichier PDF) en ligne de commande, avec la commande suivante : ::"
+msgstr ""
+
+#: ../../book/introduction.rst:105
+msgid ""
+"L'intégralité des options de la commande ``songbook`` sont disponible "
+"dans la :ref:`section dédiée <songbookbin>`."
+msgstr ""
+
+#: ../../book/introduction.rst:109
+msgid "Ecrire ses propres fichiers :file:`.yaml`"
+msgstr ""
+
+#: ../../book/introduction.rst:111
+msgid ""
+"Le contenu d'un carnet est géré par le mot-clef ``content`` d'un fichier "
+":file:`.yaml`. Les différents types de contenus disponibles sont décrits "
+"dans la section :ref:`content`."
+msgstr ""
+
+#: ../../book/introduction.rst:114
+msgid ""
+"Tous les autres mots-clefs des fichiers :file:`.yaml` servent à faire la "
+"mise en page des carnets. Les options sont présentées dans la section "
+":ref:`layout`."
+msgstr ""
+

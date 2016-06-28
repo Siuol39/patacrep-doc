@@ -1,15 +1,16 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Patacrep 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-08 23:19+0100\n"
+"POT-Creation-Date: 2016-06-28 18:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../more/datadir.rst:4
 msgid "Organisation des ``datadirs``"
@@ -28,64 +29,88 @@ msgstr ""
 msgid "Les sous-répertoires de ces :file:`datadir` sont les suivants."
 msgstr ""
 
-#: ../../more/datadir.rst:24
+#: ../../more/datadir.rst:32
 msgid ":file:`img`"
 msgstr ""
 
-#: ../../more/datadir.rst:14
+#: ../../more/datadir.rst:16
 msgid ""
-"Ce répertoire contient des images qui peuvent être incluses à l'aide de la "
-"commande :"
+"Ce répertoire contient des images qui peuvent être incluses à l'aide de "
+"la commande :"
 msgstr ""
 
-#: ../../more/datadir.rst:21
+#: ../../more/datadir.rst:23
+msgid "ou en LaTeX :"
+msgstr ""
+
+#: ../../more/datadir.rst:29
 msgid ""
-"Ce répertoire est automatiquement inclus dans la liste des répertoires dans "
-"lesquels ``\\includegraphics`` va chercher les images : pour les fichiers de"
-" ce répertoire, il n'est donc pas nécessaire de préciser leur chemin d'accès"
-" absolu."
-msgstr ""
-
-#: ../../more/datadir.rst:30
-msgid ":file:`latex`"
-msgstr ""
-
-#: ../../more/datadir.rst:27
-msgid ""
-"Ce répertoire peut contenir des fichiers LaTeX (:file:`.tex` ou "
-":file:`.sty`). Lors d'inclusion de fichiers, ou de chargement de paquets. "
-"C'est dans ce répertoire que vous pouvez mettre les fichiers de paquets "
-"LaTeX qui ne sont pas inclus avec votre distribution."
-msgstr ""
-
-#: ../../more/datadir.rst:35
-msgid ":file:`songs`"
-msgstr ""
-
-#: ../../more/datadir.rst:33
-msgid ""
-"Les chansons pouvant être incluses dans le carnet de chant sont dans ce "
-"répertoire. Aucune organisation spécifique n'est imposée à l'intérieur de ce"
-" répertoire."
+"Ce répertoire est automatiquement inclus dans la liste des répertoires "
+"dans lesquels ces commandes vont chercher les images : pour les fichiers "
+"de ce répertoire, il n'est donc pas nécessaire de préciser leur chemin "
+"d'accès absolu."
 msgstr ""
 
 #: ../../more/datadir.rst:39
+msgid ":file:`latex`"
+msgstr ""
+
+#: ../../more/datadir.rst:37
+msgid ""
+"Ce répertoire peut contenir des fichiers LaTeX (:file:`.tex` ou "
+":file:`.sty`). C'est dans ce répertoire que vous pouvez mettre les "
+"fichiers de paquets LaTeX qui ne sont pas inclus avec votre distribution."
+msgstr ""
+
+#: ../../more/datadir.rst:46
+msgid ":file:`songs`"
+msgstr ""
+
+#: ../../more/datadir.rst:44
+msgid ""
+"Les chansons pouvant être incluses dans le carnet de chant sont dans ce "
+"répertoire. Aucune organisation spécifique n'est imposée à l'intérieur de"
+" ce répertoire."
+msgstr ""
+
+#: ../../more/datadir.rst:52
 msgid ":file:`templates`"
 msgstr ""
 
-#: ../../more/datadir.rst:38
+#: ../../more/datadir.rst:51
 msgid ""
-"Comme son nom l'indique, les :ref:`templates <templates>` sont recherchés "
-"dans ce répertoire."
+"Comme son nom l'indique, les :ref:`templates <templates>` sont recherchés"
+" dans ce répertoire."
 msgstr ""
 
-#: ../../more/datadir.rst:43
+#: ../../more/datadir.rst:58
 msgid ":file:`python`"
 msgstr ""
 
-#: ../../more/datadir.rst:42
+#: ../../more/datadir.rst:57
 msgid ""
-"Dans ce répertoire peuvent être placés des modules Python complémentaires. "
-"Pour le moment, ceci est uniquement utilisé pour :ref:`écrire ses propres "
-"plugins <plugins_write>`."
+"Dans ce répertoire peuvent être placés des modules Python "
+"complémentaires. Pour le moment, ceci est uniquement utilisé pour "
+":ref:`écrire ses propres plugins <plugins_write>`."
 msgstr ""
+
+#~ msgid ""
+#~ "Ce répertoire est automatiquement inclus "
+#~ "dans la liste des répertoires dans "
+#~ "lesquels ``\\includegraphics`` va chercher les"
+#~ " images : pour les fichiers de "
+#~ "ce répertoire, il n'est donc pas "
+#~ "nécessaire de préciser leur chemin "
+#~ "d'accès absolu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ce répertoire peut contenir des fichiers"
+#~ " LaTeX (:file:`.tex` ou :file:`.sty`). Lors"
+#~ " d'inclusion de fichiers, ou de "
+#~ "chargement de paquets. C'est dans ce "
+#~ "répertoire que vous pouvez mettre les"
+#~ " fichiers de paquets LaTeX qui ne "
+#~ "sont pas inclus avec votre distribution."
+#~ msgstr ""
+

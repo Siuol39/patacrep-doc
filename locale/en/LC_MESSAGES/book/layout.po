@@ -1,449 +1,898 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Patacrep 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-08 23:19+0100\n"
+"POT-Creation-Date: 2016-06-28 18:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../book/layout.rst:4
-msgid "Faire la mise en page d'un carnet"
+msgid "Mise en page du carnet"
 msgstr ""
 
 #: ../../book/layout.rst:6
-msgid "TODO : reformuler"
+msgid ""
+"La mise en page des carnets est gérée par un système d'options : il est "
+"possible de spécifier la taille et l'orientation du papier, le type de "
+"police des accords, *etc.* en mettant le bon mot clef dans un fichier "
+":file:`.yaml`."
 msgstr ""
 
-#: ../../book/layout.rst:8
+#: ../../book/layout.rst:10
 msgid ""
-"La plupart des options ne sont pas traitées d'une manière spécifique par "
-":py:mod:`patacrep` : elles ne font que peupler la variable correspondante "
-"dans le template. Quelques-unes d'entre elles (comme ``content`` par exemple"
-" sont manipulées explicitement par :py:mod:`patacrep`). Ceci signifie qu'en "
-"écrivant le template adéquat, il est possible de définir de nouvelles "
-"options (plus d'information dans la :ref:`partie correspondante "
-"<templates>`)."
+"La plupart des options peuvent être omises : elle prendront alors une "
+"valeur par défaut, documentée ci-dessous."
 msgstr ""
 
 #: ../../book/layout.rst:15
-msgid ""
-"Il existe différentes manières de définir les options utilisées pour générer"
-" le carnet de chant. Nous les donnons ici par ordre de priorité "
-"décroissante."
+msgid "Exemple de fichier :file:`.yaml`"
 msgstr ""
 
-#: ../../book/layout.rst:19
-msgid "Valeurs par défaut"
+#: ../../book/layout.rst:17
+msgid ""
+"Un fichier :file:`.yaml` contient un dictionnaire YAML, dont les clefs "
+"sont les noms des options et leur valeur associée pour la mise en page. "
+"Le mot-clef ``content`` ne gère pas la mise en page, mais le "
+":ref:`contenu du carnet <content>`."
 msgstr ""
 
 #: ../../book/layout.rst:21
 msgid ""
-"Quelques options ne peuvent pas être laissées vides, et doivent avoir une "
-"valeur par défaut. Celle-ci est inscrite *en dur* dans le code source de "
-":py:mod:`patacrep`, et est donnée dans la liste des options ci-dessous."
+"Voici par exemple le fichier :file:`.yaml` qui fournit les options par "
+"défaut :"
 msgstr ""
 
-#: ../../book/layout.rst:27
-msgid "Templates"
-msgstr ""
-
-#: ../../book/layout.rst:29
-msgid ""
-"Les templates permettent de définir des valeurs particulières à certaines "
-"options. Par exemple, pour réaliser une collection de recueils, il est "
-"possible d'en définir les caractéristiques générales dans un template "
-"particulier. Les options prenant des valeurs différentes pour chacun des "
-"recueils sont définies dans les fichiers :file:`.sb`."
-msgstr ""
-
-#: ../../book/layout.rst:35
-msgid "La syntaxe de ces options est décrite dans la partie :ref:`templates`."
-msgstr ""
-
-#: ../../book/layout.rst:40
-msgid "Fichier :file:`.sb`"
-msgstr ""
-
-#: ../../book/layout.rst:42
-msgid "Ces options ne s'appliquent qu'à un carnet de chant particulier."
-msgstr ""
-
-#: ../../book/layout.rst:44
-msgid ""
-"Un fichier :file:`.sb` est écrit au format `JSON`. Il contient un "
-"dictionnaire, dont les clefs sont les noms des options, et les valeurs "
-"associées sont les valeurs de ces options. Le type des valeurs dépend de "
-"l'option considérée, et est détaillé dans la section suivante."
-msgstr ""
-
-#: ../../book/layout.rst:52
+#: ../../book/layout.rst:71
 msgid "Liste des options"
 msgstr ""
 
-#: ../../book/layout.rst:54
+#: ../../book/layout.rst:73
 msgid ""
-"Les valeurs par défaut sont données ici en supposant que la langue "
-"principale du recueil est le français."
+"Les valeurs par défaut sont données ici en supposant que **la langue "
+"principale du carnet est le français**."
 msgstr ""
 
-#: ../../book/layout.rst:58
-msgid "Définies hors des templates"
+#: ../../book/layout.rst:77
+msgid "Options générales"
 msgstr ""
 
-#: ../../book/layout.rst:63 ../../book/layout.rst:87 ../../book/layout.rst:132
-msgid "Option"
+#: ../../book/layout.rst:79
+msgid "Ce sont des sous-clés de la clé ``book``."
 msgstr ""
 
-#: ../../book/layout.rst:63 ../../book/layout.rst:87 ../../book/layout.rst:132
-msgid "Description"
-msgstr ""
-
-#: ../../book/layout.rst:63 ../../book/layout.rst:87 ../../book/layout.rst:132
-msgid "Type"
-msgstr ""
-
-#: ../../book/layout.rst:63 ../../book/layout.rst:87 ../../book/layout.rst:132
-msgid "Valeur par défaut"
-msgstr ""
-
-#: ../../book/layout.rst:65
-msgid "content"
-msgstr ""
-
-#: ../../book/layout.rst:65
-msgid "contenu à inclure dans le recueil"
-msgstr ""
-
-#: ../../book/layout.rst:65
-msgid "liste, décrite dans la section :ref:`content`"
-msgstr ""
-
-#: ../../book/layout.rst:65 ../../book/layout.rst:69 ../../book/layout.rst:103
-msgid "``[]``"
-msgstr ""
-
-#: ../../book/layout.rst:67
-msgid "template"
-msgstr ""
-
-#: ../../book/layout.rst:67
-msgid "template à utiliser"
-msgstr ""
-
-#: ../../book/layout.rst:67
-msgid "nom d'un fichier présent dans un dossier :file:`templates`"
-msgstr ""
-
-#: ../../book/layout.rst:67
-msgid "``\"default.tex\"``"
-msgstr ""
-
-#: ../../book/layout.rst:69 ../../book/layout.rst:134
-msgid "titleprefixwords"
-msgstr ""
-
-#: ../../book/layout.rst:69
-msgid "Mots à ignorer dans le classement des chansons"
-msgstr ""
-
-#: ../../book/layout.rst:69 ../../book/layout.rst:103
-msgid "liste de chaînes de caractères"
-msgstr ""
-
-#: ../../book/layout.rst:71
-msgid "authwords"
-msgstr ""
-
-#: ../../book/layout.rst:71
-msgid ""
-"Options pour traiter les noms d'auteurs (commandes LaTeX ``authsepword`` "
-"(sépatareurs de noms), ``authignoreword`` (noms à ignorer), ``authbyword`` "
-"(mots introduisant les noms des auteurs)."
-msgstr ""
-
-#: ../../book/layout.rst:71
-msgid ""
-"dictionnaire de listes de chaînes de caractères, dont les clefs sont "
-"``sep``, ``ignore`` et ``after``"
-msgstr ""
-
-#: ../../book/layout.rst:71
-msgid "``{\"after\": [\"by\"], \"ignore\": [\"unknown\"], \"sep\": [\"and\"]}``"
-msgstr ""
-
-#: ../../book/layout.rst:82
-msgid "Template :file:`default.tex`"
-msgstr ""
-
-#: ../../book/layout.rst:89
-msgid "instruments"
-msgstr ""
-
-#: ../../book/layout.rst:89
-msgid "instruments à afficher"
-msgstr ""
-
-#: ../../book/layout.rst:89
-msgid "Liste de chaînes de caractères parmi : ``guitar``, ``ukulele``"
-msgstr ""
-
-#: ../../book/layout.rst:89
-msgid "``[\"guitar\"]``"
-msgstr ""
-
-#: ../../book/layout.rst:91
-msgid "booktype"
-msgstr ""
-
-#: ../../book/layout.rst:91
-msgid "Type de recueil"
-msgstr ""
-
-#: ../../book/layout.rst:91
-msgid ""
-"Chaîne de caractères, parmi : ``chorded`` (avec accords) ou ``lyric`` "
-"(paroles uniquement)"
-msgstr ""
-
-#: ../../book/layout.rst:91
-msgid "``\"chorded\"``"
-msgstr ""
-
-#: ../../book/layout.rst:94
-msgid "bookoptions"
-msgstr ""
-
-#: ../../book/layout.rst:94
-msgid "éléments à afficher"
-msgstr ""
-
-#: ../../book/layout.rst:94
-msgid ""
-"Liste de chaînes de caractères parmi : ``lilypond`` (partitions lilypond), "
-"``diagram`` (diagrammes d'accords), ``importantdiagramonly`` (diagrammes "
-"importants uniquement), ``onesongperpage`` (une chanson par page), "
-"``pictures`` (couvertures des albums), ``repeatchords`` (répéter les "
-"accords), ``tabs`` (tablatures)"
-msgstr ""
-
-#: ../../book/layout.rst:94
-msgid "``[\"diagram\", \"pictures\"]``"
-msgstr ""
-
-#: ../../book/layout.rst:103
-msgid "classoptions"
-msgstr ""
-
-#: ../../book/layout.rst:103
-msgid ""
-"options passées à la commande ``\\documentclass`` du document LaTeX "
-"principal"
-msgstr ""
-
-#: ../../book/layout.rst:106
-msgid "notenamesout"
-msgstr ""
-
-#: ../../book/layout.rst:106
-msgid "Nom des notes"
-msgstr ""
-
-#: ../../book/layout.rst:106
-msgid ""
-"chaîne de caractères parmi : ``solfedge`` (Do, Ré, Mi...) et ``alphascale`` "
-"(A, B, C...)"
-msgstr ""
-
-#: ../../book/layout.rst:106
-msgid "``\"solfedge\"``"
-msgstr ""
-
-#: ../../book/layout.rst:109
+#: ../../book/layout.rst:83
 msgid "lang"
 msgstr ""
 
-#: ../../book/layout.rst:109
-msgid "langue du recueil"
+#: ../../book/layout.rst:84
+msgid "Langue du carnet (Code ISO 639-1 à 2 lettres)."
+msgstr ""
+
+#: ../../book/layout.rst:86
+msgid "Défaut: ``en``"
+msgstr ""
+
+#: ../../book/layout.rst:87 ../../book/layout.rst:112 ../../book/layout.rst:121
+#: ../../book/layout.rst:142 ../../book/layout.rst:187
+#: ../../book/layout.rst:306 ../../book/layout.rst:314
+#: ../../book/layout.rst:322 ../../book/layout.rst:334
+#: ../../book/layout.rst:342 ../../book/layout.rst:350
+#: ../../book/layout.rst:358 ../../book/layout.rst:366
+#: ../../book/layout.rst:374 ../../book/layout.rst:382
+msgid "Type: Chaîne de charactères"
+msgstr ""
+
+#: ../../book/layout.rst:88
+msgid "Valeurs: ``fr`` et ``en`` sont actuellement supportés"
+msgstr ""
+
+#: ../../book/layout.rst:92
+msgid "onesongperpage"
+msgstr ""
+
+#: ../../book/layout.rst:93
+msgid "Commencer toutes les chansons sur une nouvelle page."
+msgstr ""
+
+#: ../../book/layout.rst:95 ../../book/layout.rst:170 ../../book/layout.rst:178
+msgid "Défaut: ``no``"
+msgstr ""
+
+#: ../../book/layout.rst:96 ../../book/layout.rst:104 ../../book/layout.rst:134
+#: ../../book/layout.rst:155 ../../book/layout.rst:163
+#: ../../book/layout.rst:171 ../../book/layout.rst:179
+msgid "Type: Booléen"
+msgstr ""
+
+#: ../../book/layout.rst:100
+msgid "pictures"
+msgstr ""
+
+#: ../../book/layout.rst:101
+msgid "Afficher les couvertures des albums."
+msgstr ""
+
+#: ../../book/layout.rst:103 ../../book/layout.rst:133
+#: ../../book/layout.rst:154 ../../book/layout.rst:162
+msgid "Défaut: ``yes``"
+msgstr ""
+
+#: ../../book/layout.rst:108
+msgid "template"
 msgstr ""
 
 #: ../../book/layout.rst:109
-msgid "``french``, ``english``, etc."
-msgstr ""
-
-#: ../../book/layout.rst:109
-msgid "``\"english\"``"
-msgstr ""
-
-#: ../../book/layout.rst:110
-msgid "title"
-msgstr ""
-
-#: ../../book/layout.rst:110
-msgid "titre du recueil"
-msgstr ""
-
-#: ../../book/layout.rst:110 ../../book/layout.rst:111
-#: ../../book/layout.rst:112 ../../book/layout.rst:113
-#: ../../book/layout.rst:114 ../../book/layout.rst:116
-#: ../../book/layout.rst:121 ../../book/layout.rst:122
-msgid "chaîne de caractères"
-msgstr ""
-
-#: ../../book/layout.rst:110
-msgid "``\"Recueil de chansons pour guitare\"``"
+msgid "Template de carnet à utiliser."
 msgstr ""
 
 #: ../../book/layout.rst:111
-msgid "author"
-msgstr ""
-
-#: ../../book/layout.rst:111
-msgid "auteur du recueil"
-msgstr ""
-
-#: ../../book/layout.rst:111
-msgid "``\"L'équipe Patacrep\"``"
-msgstr ""
-
-#: ../../book/layout.rst:112
-msgid "subtitle"
-msgstr ""
-
-#: ../../book/layout.rst:112
-msgid "sous-titre du recueil"
-msgstr ""
-
-#: ../../book/layout.rst:112
-msgid "*vide*"
+msgid "Défaut: ``patacrep.tex``"
 msgstr ""
 
 #: ../../book/layout.rst:113
-msgid "version"
+msgid ""
+"Valeurs: Voir le dossier ``templates`` des datadirs pour les autres "
+"fichiers disponibles"
 msgstr ""
 
-#: ../../book/layout.rst:113
-msgid "version du recueil"
+#: ../../book/layout.rst:117
+msgid "encoding"
 msgstr ""
 
-#: ../../book/layout.rst:113
-msgid "``\"undefined\"``"
+#: ../../book/layout.rst:118
+msgid ""
+"Encodage des fichiers à lire (chansons, templates, etc.). Peut aider à "
+"résoudre des problèmes d'accentuation."
 msgstr ""
 
-#: ../../book/layout.rst:114
-msgid "web"
+#: ../../book/layout.rst:120
+msgid "Défaut: ``utf-8``"
 msgstr ""
 
-#: ../../book/layout.rst:114
-msgid "adresse du site web du recueil"
-msgstr ""
-
-#: ../../book/layout.rst:114
-msgid "``\"http://www.patacrep.com\"``"
-msgstr ""
-
-#: ../../book/layout.rst:116
-msgid "mail"
-msgstr ""
-
-#: ../../book/layout.rst:116
-msgid "adresse électronique associée au recueil"
-msgstr ""
-
-#: ../../book/layout.rst:116
-msgid "``\"crep@team-on-fire.com\"``"
-msgstr ""
-
-#: ../../book/layout.rst:119
-msgid "picture"
-msgstr ""
-
-#: ../../book/layout.rst:119
-msgid "image de la page de garde"
-msgstr ""
-
-#: ../../book/layout.rst:119
-msgid "chemin vers image, au format ``jpg``, ``png`` ou ``pdf``"
-msgstr ""
-
-#: ../../book/layout.rst:119
-msgid "``\"treble_a.png\"``"
-msgstr ""
-
-#: ../../book/layout.rst:121
-msgid "picturecopyright"
-msgstr ""
-
-#: ../../book/layout.rst:121
-msgid "copyright de l'image"
-msgstr ""
-
-#: ../../book/layout.rst:121
-msgid "``\"Dbolton \\\\url{http://commons.wikimedia.org/wiki/User:Dbolton}\"``"
-msgstr ""
-
-#: ../../book/layout.rst:122
-msgid "footer"
-msgstr ""
-
-#: ../../book/layout.rst:122
-msgid "pied de page de la page de garde"
-msgstr ""
-
-#: ../../book/layout.rst:122
-msgid "``\"Generated using Songbook (\\\\url{http://www.patacrep.com})\"``"
+#: ../../book/layout.rst:125
+msgid "Options musicales"
 msgstr ""
 
 #: ../../book/layout.rst:127
+msgid "Ce sont des sous-clés de la clé ``chords``."
+msgstr ""
+
+#: ../../book/layout.rst:130
+msgid "show"
+msgstr ""
+
+#: ../../book/layout.rst:131
+msgid "Afficher les accords au sein des paroles."
+msgstr ""
+
+#: ../../book/layout.rst:138
+msgid "diagramreminder"
+msgstr ""
+
+#: ../../book/layout.rst:139
+msgid "Rappeler en début de chansons certains diagrammes d'accords."
+msgstr ""
+
+#: ../../book/layout.rst:141
+msgid "Défaut: ``important``"
+msgstr ""
+
+#: ../../book/layout.rst:143 ../../book/layout.rst:188
+#: ../../book/layout.rst:200
+msgid "Valeurs:"
+msgstr ""
+
+#: ../../book/layout.rst:145
+msgid "``all`` : Rappel de tous les accords présents dans le chant"
+msgstr ""
+
+#: ../../book/layout.rst:146
+msgid "``important`` : Rappel des accords peu communs du chant"
+msgstr ""
+
+#: ../../book/layout.rst:147
+msgid "``none`` : Aucun rappel d'accords"
+msgstr ""
+
+#: ../../book/layout.rst:151
+msgid "diagrampage"
+msgstr ""
+
+#: ../../book/layout.rst:152
+msgid "Insérer une page d'accords en début de carnet."
+msgstr ""
+
+#: ../../book/layout.rst:159
+msgid "repeatchords"
+msgstr ""
+
+#: ../../book/layout.rst:160
+msgid ""
+"Afficher les accords dans tous les couplets (disponible uniquement pour "
+"certains chants)."
+msgstr ""
+
+#: ../../book/layout.rst:167
+msgid "lilypond"
+msgstr ""
+
+#: ../../book/layout.rst:168
+msgid "Inclure les partitions musicales (nécéssite le logiciel libre lilypond)."
+msgstr ""
+
+#: ../../book/layout.rst:175
+msgid "tablatures"
+msgstr ""
+
+#: ../../book/layout.rst:176
+msgid "Inclure les tablatures."
+msgstr ""
+
+#: ../../book/layout.rst:183
+msgid "instrument"
+msgstr ""
+
+#: ../../book/layout.rst:184
+msgid "Instrument pour lequel il faut rappeler les accords."
+msgstr ""
+
+#: ../../book/layout.rst:186
+msgid "Défaut: ``guitar``"
+msgstr ""
+
+#: ../../book/layout.rst:190
+msgid "``guitar`` : Guitare"
+msgstr ""
+
+#: ../../book/layout.rst:191
+msgid "``ukulele`` : Ukulélé"
+msgstr ""
+
+#: ../../book/layout.rst:195
+msgid "notation"
+msgstr ""
+
+#: ../../book/layout.rst:196
+msgid "Notation des accords."
+msgstr ""
+
+#: ../../book/layout.rst:198
+msgid "Défaut: ``solfedge``"
+msgstr ""
+
+#: ../../book/layout.rst:199
+msgid "Type: Chaîne de charactères, ou liste de sept chaînes de caractères."
+msgstr ""
+
+#: ../../book/layout.rst:202
+msgid "``alphascale`` : Système internanial ABCDEFG"
+msgstr ""
+
+#: ../../book/layout.rst:203
+msgid "``solfedge`` :  Système français Do Ré Mi"
+msgstr ""
+
+#: ../../book/layout.rst:204
+msgid ""
+"liste : Liste des noms des notes, en commençant par La. Ainsi, par "
+"exemple, ``solfedge`` est équivalent à ``['La', 'Si', 'Do', 'Ré', 'Mi', "
+"'Fa', 'Sol']``."
+msgstr ""
+
+#: ../../book/layout.rst:208
+msgid "Analyse des auteurs"
+msgstr ""
+
+#: ../../book/layout.rst:210
+msgid "Ce sont des sous-clés de la clé ``authors``."
+msgstr ""
+
+#: ../../book/layout.rst:214
+msgid "separators"
+msgstr ""
+
+#: ../../book/layout.rst:215
+msgid ""
+"Mots qui séparent les noms d'artistes. Par exemple, si cette option "
+"contient ``et``, une chanson ayant comme artiste ``Georges Brassens et "
+"Charles Trenet`` apparaitra dans l'index à la fois à ``Brassens`` et "
+"``Trenet``."
+msgstr ""
+
+#: ../../book/layout.rst:217
+msgid "Défaut: ``- and``"
+msgstr ""
+
+#: ../../book/layout.rst:218 ../../book/layout.rst:226
+#: ../../book/layout.rst:234 ../../book/layout.rst:266
+msgid "Type: Tableau de mots"
+msgstr ""
+
+#: ../../book/layout.rst:222
+msgid "ignore"
+msgstr ""
+
+#: ../../book/layout.rst:223
+msgid ""
+"Noms d'artistes à ignorer. Permet par exemple de spécifier que l'auteur "
+"d'une chanson est inconnu, sans pour autant avoir ``Anonyme`` apparaitre "
+"dans l'index."
+msgstr ""
+
+#: ../../book/layout.rst:225
+msgid "Défaut: ``- unknown``"
+msgstr ""
+
+#: ../../book/layout.rst:230
+msgid "after"
+msgstr ""
+
+#: ../../book/layout.rst:231
+msgid ""
+"Mots introduisant les noms des auteurs. Par exemple, si cette option "
+"contient ``de``, une chanson ayant comme artiste ``Musique de Jean Boyer,"
+" chantée par Georges Brassens`` apparaitra dans l'index à la fois à "
+"``Jean Boyer`` et ``Georges Brassens``."
+msgstr ""
+
+#: ../../book/layout.rst:233
+msgid "Défaut: ``- by``"
+msgstr ""
+
+#: ../../book/layout.rst:238
+msgid "Analyse des titres"
+msgstr ""
+
+#: ../../book/layout.rst:240
+msgid "Ce sont des sous-clés de la clé ``titles``."
+msgstr ""
+
+#: ../../book/layout.rst:244
+msgid "prefix"
+msgstr ""
+
+#: ../../book/layout.rst:245
+msgid "Préfixe à ignorer lors du tri des titres (notamment dans l'index)."
+msgstr ""
+
+#: ../../book/layout.rst:247
+msgid "Défaut:"
+msgstr ""
+
+#: ../../book/layout.rst:270
+msgid "Options des templates"
+msgstr ""
+
+#: ../../book/layout.rst:272
+msgid ""
+"Certains options sont propres aux templates utilisés. Par exemple le "
+"template :file:`patacrep.tex` (qui inclut notamment :file:`default.tex`) "
+"permet de personnaliser certaines couleurs et la page de garde."
+msgstr ""
+
+#: ../../book/layout.rst:276
+msgid ""
+"Les options des templates sont regroupées sous la clé ``template`` avec "
+"comme sous-clé le nom du fichier de template:"
+msgstr ""
+
+#: ../../book/layout.rst:298
+msgid "Template :file:`default.tex`"
+msgstr ""
+
+#: ../../book/layout.rst:302
+msgid "title"
+msgstr ""
+
+#: ../../book/layout.rst:303
+msgid "Titre du carnet de chants."
+msgstr ""
+
+#: ../../book/layout.rst:305
+msgid "Défaut: ``\"Recueil de chansons pour guitare\"``"
+msgstr ""
+
+#: ../../book/layout.rst:310
+msgid "author"
+msgstr ""
+
+#: ../../book/layout.rst:311
+msgid "Auteur du carnet de chants."
+msgstr ""
+
+#: ../../book/layout.rst:313
+msgid "Défaut: ``\"L'équipe Patacrep\"``"
+msgstr ""
+
+#: ../../book/layout.rst:318
+msgid "classoptions"
+msgstr ""
+
+#: ../../book/layout.rst:319
+msgid "Options de la classe LaTeX."
+msgstr ""
+
+#: ../../book/layout.rst:321 ../../book/layout.rst:333
+#: ../../book/layout.rst:341
+msgid "Défaut: *(vide)*"
+msgstr ""
+
+#: ../../book/layout.rst:326
 msgid "Template :file:`patacrep.tex`"
 msgstr ""
 
-#: ../../book/layout.rst:134 ../../book/layout.rst:134
-msgid "*idem*"
+#: ../../book/layout.rst:330
+msgid "subtitle"
 msgstr ""
 
-#: ../../book/layout.rst:134
-msgid "``[\"The\", \"Le\", \"La\", \"L'\", \"A\", \"Au\", \"Ces\", \"De\", \"Des\", \"El\", \"Les\", \"Ma\", \"Mon\", \"Un\"]}``"
+#: ../../book/layout.rst:331
+msgid "Sous-titre du carnet (pour la page de garde)."
 msgstr ""
 
-#: ../../book/layout.rst:135
-msgid "songnumberbgcolor"
+#: ../../book/layout.rst:338
+msgid "version"
 msgstr ""
 
-#: ../../book/layout.rst:135
-msgid "couleur des numéros des chansons"
+#: ../../book/layout.rst:339
+msgid "Version du carnet (pour la page de garde)."
 msgstr ""
 
-#: ../../book/layout.rst:135 ../../book/layout.rst:137
-#: ../../book/layout.rst:139
-msgid "code hexadécimal"
+#: ../../book/layout.rst:346
+msgid "url"
 msgstr ""
 
-#: ../../book/layout.rst:135 ../../book/layout.rst:137
-#: ../../book/layout.rst:139
-msgid "``\"D1E4AE\"``"
+#: ../../book/layout.rst:347
+msgid "Site web de l'auteur (pour la page de garde)."
 msgstr ""
 
-#: ../../book/layout.rst:137
-msgid "notebgcolor"
+#: ../../book/layout.rst:349
+msgid "Défaut: ``\"http://www.patacrep.com\"``"
 msgstr ""
 
-#: ../../book/layout.rst:137
-msgid "couleur des notes dans les chansons"
+#: ../../book/layout.rst:354
+msgid "email"
 msgstr ""
 
-#: ../../book/layout.rst:139
-msgid "indexbgcolor"
+#: ../../book/layout.rst:355
+msgid "Courriel de l'auteur (pour la page de garde)."
 msgstr ""
 
-#: ../../book/layout.rst:139
-msgid "couleur des liens dans l'index"
+#: ../../book/layout.rst:357
+msgid "Défaut: ``\"crep@team-on-fire.com\"``"
 msgstr ""
 
-#: ../../book/layout.rst:143
-msgid "TODO : Lien vers Templates"
+#: ../../book/layout.rst:362
+msgid "picture"
 msgstr ""
+
+#: ../../book/layout.rst:363
+msgid "Image pour la page de garde."
+msgstr ""
+
+#: ../../book/layout.rst:365
+msgid "Défaut: ``\"img/treble_a\"``"
+msgstr ""
+
+#: ../../book/layout.rst:370
+msgid "picturecopyright"
+msgstr ""
+
+#: ../../book/layout.rst:371
+msgid "Copyright pour l'image de la page de garde."
+msgstr ""
+
+#: ../../book/layout.rst:373
+msgid ""
+"Défaut: ``\"Dbolton "
+"\\\\url{http://commons.wikimedia.org/wiki/User:Dbolton}\"``"
+msgstr ""
+
+#: ../../book/layout.rst:378
+msgid "footer"
+msgstr ""
+
+#: ../../book/layout.rst:379
+msgid "Pied de page de la page de garde."
+msgstr ""
+
+#: ../../book/layout.rst:381
+msgid ""
+"Défaut: ``\"Créé avec le programme Songbook "
+"(\\\\url{http://www.patacrep.com})\"``"
+msgstr ""
+
+#: ../../book/layout.rst:386
+msgid "color: songlink"
+msgstr ""
+
+#: ../../book/layout.rst:387
+msgid "Couleur des liens vers les chants."
+msgstr ""
+
+#: ../../book/layout.rst:389
+msgid "Défaut: ``4e9a06``"
+msgstr ""
+
+#: ../../book/layout.rst:390 ../../book/layout.rst:398
+#: ../../book/layout.rst:406 ../../book/layout.rst:414
+#: ../../book/layout.rst:422
+msgid "Type: Couleur en hexadécimal"
+msgstr ""
+
+#: ../../book/layout.rst:394
+msgid "color: hyperlink"
+msgstr ""
+
+#: ../../book/layout.rst:395
+msgid "Couleurs des liens hypertextes."
+msgstr ""
+
+#: ../../book/layout.rst:397
+msgid "Défaut: ``204a87``"
+msgstr ""
+
+#: ../../book/layout.rst:402
+msgid "bgcolor: songnumber"
+msgstr ""
+
+#: ../../book/layout.rst:403
+msgid "Couleur de fond des numéros de chants."
+msgstr ""
+
+#: ../../book/layout.rst:405 ../../book/layout.rst:413
+#: ../../book/layout.rst:421
+msgid "Défaut: ``D1E4AE``"
+msgstr ""
+
+#: ../../book/layout.rst:410
+msgid "bgcolor: note"
+msgstr ""
+
+#: ../../book/layout.rst:411
+msgid "Couleur de fond des indications."
+msgstr ""
+
+#: ../../book/layout.rst:418
+msgid "bgcolor: index"
+msgstr ""
+
+#: ../../book/layout.rst:419
+msgid "Couleur de fond des lettres de l'index."
+msgstr ""
+
+#~ msgid "Faire la mise en page d'un carnet"
+#~ msgstr ""
+
+#~ msgid "TODO : reformuler"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "La plupart des options ne sont pas"
+#~ " traitées d'une manière spécifique par "
+#~ ":py:mod:`patacrep` : elles ne font que"
+#~ " peupler la variable correspondante dans"
+#~ " le template. Quelques-unes d'entre "
+#~ "elles (comme ``content`` par exemple "
+#~ "sont manipulées explicitement par "
+#~ ":py:mod:`patacrep`). Ceci signifie qu'en "
+#~ "écrivant le template adéquat, il est "
+#~ "possible de définir de nouvelles options"
+#~ " (plus d'information dans la :ref:`partie"
+#~ " correspondante <templates>`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il existe différentes manières de "
+#~ "définir les options utilisées pour "
+#~ "générer le carnet de chant. Nous "
+#~ "les donnons ici par ordre de "
+#~ "priorité décroissante."
+#~ msgstr ""
+
+#~ msgid "Valeurs par défaut"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quelques options ne peuvent pas être "
+#~ "laissées vides, et doivent avoir une "
+#~ "valeur par défaut. Celle-ci est "
+#~ "inscrite *en dur* dans le code "
+#~ "source de :py:mod:`patacrep`, et est "
+#~ "donnée dans la liste des options "
+#~ "ci-dessous."
+#~ msgstr ""
+
+#~ msgid "Templates"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Les templates permettent de définir des"
+#~ " valeurs particulières à certaines options."
+#~ " Par exemple, pour réaliser une "
+#~ "collection de recueils, il est possible"
+#~ " d'en définir les caractéristiques "
+#~ "générales dans un template particulier. "
+#~ "Les options prenant des valeurs "
+#~ "différentes pour chacun des recueils "
+#~ "sont définies dans les fichiers "
+#~ ":file:`.sb`."
+#~ msgstr ""
+
+#~ msgid "La syntaxe de ces options est décrite dans la partie :ref:`templates`."
+#~ msgstr ""
+
+#~ msgid "Fichier :file:`.sb`"
+#~ msgstr ""
+
+#~ msgid "Ces options ne s'appliquent qu'à un carnet de chant particulier."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Un fichier :file:`.sb` est écrit au "
+#~ "format `JSON`. Il contient un "
+#~ "dictionnaire, dont les clefs sont les"
+#~ " noms des options, et les valeurs "
+#~ "associées sont les valeurs de ces "
+#~ "options. Le type des valeurs dépend "
+#~ "de l'option considérée, et est détaillé"
+#~ " dans la section suivante."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Les valeurs par défaut sont données "
+#~ "ici en supposant que la langue "
+#~ "principale du recueil est le français."
+#~ msgstr ""
+
+#~ msgid "Définies hors des templates"
+#~ msgstr ""
+
+#~ msgid "Option"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Type"
+#~ msgstr ""
+
+#~ msgid "Valeur par défaut"
+#~ msgstr ""
+
+#~ msgid "content"
+#~ msgstr ""
+
+#~ msgid "contenu à inclure dans le recueil"
+#~ msgstr ""
+
+#~ msgid "liste, décrite dans la section :ref:`content`"
+#~ msgstr ""
+
+#~ msgid "``[]``"
+#~ msgstr ""
+
+#~ msgid "template à utiliser"
+#~ msgstr ""
+
+#~ msgid "nom d'un fichier présent dans un dossier :file:`templates`"
+#~ msgstr ""
+
+#~ msgid "``\"default.tex\"``"
+#~ msgstr ""
+
+#~ msgid "titleprefixwords"
+#~ msgstr ""
+
+#~ msgid "Mots à ignorer dans le classement des chansons"
+#~ msgstr ""
+
+#~ msgid "liste de chaînes de caractères"
+#~ msgstr ""
+
+#~ msgid "authwords"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Options pour traiter les noms d'auteurs"
+#~ " (commandes LaTeX ``authsepword`` (sépatareurs"
+#~ " de noms), ``authignoreword`` (noms à "
+#~ "ignorer), ``authbyword`` (mots introduisant "
+#~ "les noms des auteurs)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "dictionnaire de listes de chaînes de "
+#~ "caractères, dont les clefs sont ``sep``,"
+#~ " ``ignore`` et ``after``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``{\"after\": [\"by\"], \"ignore\": [\"unknown\"],"
+#~ " \"sep\": [\"and\"]}``"
+#~ msgstr ""
+
+#~ msgid "instruments"
+#~ msgstr ""
+
+#~ msgid "instruments à afficher"
+#~ msgstr ""
+
+#~ msgid "Liste de chaînes de caractères parmi : ``guitar``, ``ukulele``"
+#~ msgstr ""
+
+#~ msgid "``[\"guitar\"]``"
+#~ msgstr ""
+
+#~ msgid "booktype"
+#~ msgstr ""
+
+#~ msgid "Type de recueil"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Chaîne de caractères, parmi : "
+#~ "``chorded`` (avec accords) ou ``lyric`` "
+#~ "(paroles uniquement)"
+#~ msgstr ""
+
+#~ msgid "``\"chorded\"``"
+#~ msgstr ""
+
+#~ msgid "bookoptions"
+#~ msgstr ""
+
+#~ msgid "éléments à afficher"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Liste de chaînes de caractères parmi "
+#~ ": ``lilypond`` (partitions lilypond), "
+#~ "``diagram`` (diagrammes d'accords), "
+#~ "``importantdiagramonly`` (diagrammes importants "
+#~ "uniquement), ``onesongperpage`` (une chanson "
+#~ "par page), ``pictures`` (couvertures des "
+#~ "albums), ``repeatchords`` (répéter les "
+#~ "accords), ``tabs`` (tablatures)"
+#~ msgstr ""
+
+#~ msgid "``[\"diagram\", \"pictures\"]``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "options passées à la commande "
+#~ "``\\documentclass`` du document LaTeX "
+#~ "principal"
+#~ msgstr ""
+
+#~ msgid "notenamesout"
+#~ msgstr ""
+
+#~ msgid "Nom des notes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "chaîne de caractères parmi : "
+#~ "``solfedge`` (Do, Ré, Mi...) et "
+#~ "``alphascale`` (A, B, C...)"
+#~ msgstr ""
+
+#~ msgid "``\"solfedge\"``"
+#~ msgstr ""
+
+#~ msgid "langue du recueil"
+#~ msgstr ""
+
+#~ msgid "``french``, ``english``, etc."
+#~ msgstr ""
+
+#~ msgid "``\"english\"``"
+#~ msgstr ""
+
+#~ msgid "titre du recueil"
+#~ msgstr ""
+
+#~ msgid "chaîne de caractères"
+#~ msgstr ""
+
+#~ msgid "``\"Recueil de chansons pour guitare\"``"
+#~ msgstr ""
+
+#~ msgid "auteur du recueil"
+#~ msgstr ""
+
+#~ msgid "``\"L'équipe Patacrep\"``"
+#~ msgstr ""
+
+#~ msgid "sous-titre du recueil"
+#~ msgstr ""
+
+#~ msgid "*vide*"
+#~ msgstr ""
+
+#~ msgid "version du recueil"
+#~ msgstr ""
+
+#~ msgid "``\"undefined\"``"
+#~ msgstr ""
+
+#~ msgid "web"
+#~ msgstr ""
+
+#~ msgid "adresse du site web du recueil"
+#~ msgstr ""
+
+#~ msgid "``\"http://www.patacrep.com\"``"
+#~ msgstr ""
+
+#~ msgid "mail"
+#~ msgstr ""
+
+#~ msgid "adresse électronique associée au recueil"
+#~ msgstr ""
+
+#~ msgid "``\"crep@team-on-fire.com\"``"
+#~ msgstr ""
+
+#~ msgid "image de la page de garde"
+#~ msgstr ""
+
+#~ msgid "chemin vers image, au format ``jpg``, ``png`` ou ``pdf``"
+#~ msgstr ""
+
+#~ msgid "``\"treble_a.png\"``"
+#~ msgstr ""
+
+#~ msgid "copyright de l'image"
+#~ msgstr ""
+
+#~ msgid "``\"Dbolton \\\\url{http://commons.wikimedia.org/wiki/User:Dbolton}\"``"
+#~ msgstr ""
+
+#~ msgid "pied de page de la page de garde"
+#~ msgstr ""
+
+#~ msgid "``\"Generated using Songbook (\\\\url{http://www.patacrep.com})\"``"
+#~ msgstr ""
+
+#~ msgid "*idem*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``[\"The\", \"Le\", \"La\", \"L'\", \"A\", "
+#~ "\"Au\", \"Ces\", \"De\", \"Des\", \"El\", "
+#~ "\"Les\", \"Ma\", \"Mon\", \"Un\"]}``"
+#~ msgstr ""
+
+#~ msgid "songnumberbgcolor"
+#~ msgstr ""
+
+#~ msgid "couleur des numéros des chansons"
+#~ msgstr ""
+
+#~ msgid "code hexadécimal"
+#~ msgstr ""
+
+#~ msgid "``\"D1E4AE\"``"
+#~ msgstr ""
+
+#~ msgid "notebgcolor"
+#~ msgstr ""
+
+#~ msgid "couleur des notes dans les chansons"
+#~ msgstr ""
+
+#~ msgid "indexbgcolor"
+#~ msgstr ""
+
+#~ msgid "couleur des liens dans l'index"
+#~ msgstr ""
+
+#~ msgid "TODO : Lien vers Templates"
+#~ msgstr ""
+
