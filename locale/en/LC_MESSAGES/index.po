@@ -1,192 +1,225 @@
-# SOME DESCRIPTIVE TITLE.
+# Translation of patacrep-doc to English.
 # Copyright (C) 2016, L'équipe Patacrep
 # This file is distributed under the same license as the Patacrep package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Patacrep 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 23:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2016-06-28 18:15+0200\n"
+"PO-Revision-Date: 2016-06-28 23:04+0100\n"
+"Last-Translator: Louis Hyenne <louis.hyenne.diff@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 
 #: ../../index.rst:3
 msgid "Projet `Patacrep`"
-msgstr ""
+msgstr "`Patacrep` project"
 
 #: ../../index.rst:5
 msgid ""
-"Le projet `Patacrep` fournit des outils pour compiler un carnet de chants"
-" en LaTeX (en utilisant le `paquet songs "
-"<http://songs.sourceforge.net/>`_)."
+"Le projet `Patacrep` fournit des outils pour compiler un carnet de chants en "
+"LaTeX (en utilisant le `paquet songs <http://songs.sourceforge.net/>`_)."
 msgstr ""
+"The `Patacrep` project provides tools to compile a songbook in LaTeX (using "
+"the `songs package <http://songs.sourceforge.net/>`_)."
 
 #: ../../index.rst:8
 msgid ""
 "Les chansons sont écrites, au choix, en utilisant le langage `chordpro "
-"<http://www.chordpro.org/>`_ (auquel cas elles seront converties en LaTeX"
-" lors de la compilation du carnet), ou en utilisant directement LaTeX."
+"<http://www.chordpro.org/>`_ (auquel cas elles seront converties en LaTeX "
+"lors de la compilation du carnet), ou en utilisant directement LaTeX."
 msgstr ""
+"Songs can be written either using the `chordpro <http://www.chordpro.org/>`_ "
+"language (in this case they will be converted to LaTeX during the "
+"compilation of the book) or directly using LaTeX."
 
 #: ../../index.rst:13
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../index.rst:25
 msgid "Liens externes"
-msgstr ""
+msgstr "External links"
 
 #: ../../index.rst:27
 msgid "Page officielle : http://patacrep.com"
-msgstr ""
+msgstr "Official page: http://patacrep.com"
 
 #: ../../index.rst:28
 msgid "Forum : http://www.patacrep.com/forum"
-msgstr ""
+msgstr "Forum: http://www.patacrep.com/forum"
 
 #: ../../index.rst:29
 msgid "Page développement : http://github.com/patacrep/patacrep"
-msgstr ""
+msgstr "Development page: http://github.com/patacrep/patacrep"
 
 #: ../../index.rst:32
 msgid "Projets liés"
-msgstr ""
+msgstr "Related projects"
 
 #: ../../index.rst:35
 msgid "patacrep"
-msgstr ""
+msgstr "patacrep"
 
 #: ../../index.rst:37
 msgid ""
 "Le nom `patacrep` désigne à la fois l'ensemble du projet (un ensemble "
-"d'outils), et la bibliothèque au cœur du projet (l'outil principal, "
-"utilisé par les autres outils)."
+"d'outils), et la bibliothèque au cœur du projet (l'outil principal, utilisé "
+"par les autres outils)."
 msgstr ""
+"The name `patacrep` both denotes the whole project (a set of tools), and the "
+"core library (the main tool, used by the other tools)."
 
 #: ../../index.rst:41
 msgid ""
-"`patacrep` regroupe les projets décrits ci-après (`patacrep`, "
-"`pataextra`, `patadata`, `patanet`, `patagui`) et est un ensemble "
-"d'outils de manipulation de chants et de carnets de chants."
+"`patacrep` regroupe les projets décrits ci-après (`patacrep`, `pataextra`, "
+"`patadata`, `patanet`, `patagui`) et est un ensemble d'outils de "
+"manipulation de chants et de carnets de chants."
 msgstr ""
+"`patacrep` gathers the following projects (`patacrep`, `pataextra`, "
+"`patadata`, `patanet`, `patagui`) and is a set of tools to manipulate songs "
+"and songbooks."
 
 #: ../../index.rst:44
 msgid ""
-"`patacrep/patacrep` est la bibliothèque principale, qui fournit les "
-"outils principaux nécessaires à cette manipulation, ainsi qu'un outil en "
-"ligne de commande (:ref:`songbook <songbookbin>`)."
+"`patacrep/patacrep` est la bibliothèque principale, qui fournit les outils "
+"principaux nécessaires à cette manipulation, ainsi qu'un outil en ligne de "
+"commande (:ref:`songbook <songbookbin>`)."
 msgstr ""
+"`patacrep/patacrep` is the main library, which provides the main and most "
+"necessary tools for this manipulation, along with a command-line tool (:ref:"
+"`songbook <songbookbin>`)."
 
 #: ../../index.rst:48
 msgid ""
 "Pages de développement : `organisation <http://github.com/patacrep>`_, "
 "`patacrep <http://github.com/patacrep/patacrep>`_."
 msgstr ""
+"Development pages: `organisation <http://github.com/patacrep>`_, `patacrep "
+"<http://github.com/patacrep/patacrep>`_."
 
 #: ../../index.rst:54
 msgid "patadata"
-msgstr ""
+msgstr "patadata"
 
 #: ../../index.rst:56
 msgid ""
-"Ce projet contient un grand nombre de chansons pouvant être manipulées "
-"par `patacrep`, ainsi que divers carnets de chants les rassemblant."
+"Ce projet contient un grand nombre de chansons pouvant être manipulées par "
+"`patacrep`, ainsi que divers carnets de chants les rassemblant."
 msgstr ""
+"This project contains many songs that can be manipulated by `patacrep`, "
+"along with various songbooks regrouping them."
 
 #: ../../index.rst:59
 msgid "`Page de développement <http://github.com/patacrep/patadata>`__"
-msgstr ""
+msgstr "`Development page <http://github.com/patacrep/patadata>`__"
 
 #: ../../index.rst:64
 msgid "patanet"
-msgstr ""
+msgstr "patanet"
 
 #: ../../index.rst:66
 msgid ""
-"Une interface web est en cours de développement à l'heure où nous "
-"écrivons cette documentation. Elle permettra de créer des carnets de "
-"chants en utilisant les outils `patacrep`, dans un navigateur web."
+"Une interface web est en cours de développement à l'heure où nous écrivons "
+"cette documentation. Elle permettra de créer des carnets de chants en "
+"utilisant les outils `patacrep`, dans un navigateur web."
 msgstr ""
+"A web interface is being developed at the time when this documentation is "
+"being written. It will allow to create songbooks using the `patacrep` tools "
+"in a web browser."
 
 #: ../../index.rst:70
 msgid "`Page de développement <http://github.com/patacrep/patanet>`__"
-msgstr ""
+msgstr "`Development page <http://github.com/patacrep/patanet>`__"
 
 #: ../../index.rst:73
 msgid "Outils non maintenus"
-msgstr ""
+msgstr "Unmaintained tools"
 
 #: ../../index.rst:78
 msgid "patagui"
-msgstr ""
+msgstr "patagui"
 
 #: ../../index.rst:80
 msgid ""
 "Une interface graphique a été développée pour une ancienne version de "
-"`patacrep`. Nous manquons malheureusement de temps pour la maintenir à "
-"jour. Elle devrait fonctionner avec la version 3.7.2 de `patacrep`, mais "
-"pas avec les suivantes."
+"`patacrep`. Nous manquons malheureusement de temps pour la maintenir à jour. "
+"Elle devrait fonctionner avec la version 3.7.2 de `patacrep`, mais pas avec "
+"les suivantes."
 msgstr ""
+"A graphical interface had been developed for an older version of `paracrep`. "
+"Unfortunately we do not have enough time to keep it up to date. It should "
+"work with `patacrep` version 3.7.2, but not with the following ones."
 
 #: ../../index.rst:85
 msgid ""
-"Nous espérons que son développement reprendra dans le futur (par nous ou "
-"de nouveaux contributeurs), mais elle est pour le moment obsolète."
+"Nous espérons que son développement reprendra dans le futur (par nous ou de "
+"nouveaux contributeurs), mais elle est pour le moment obsolète."
 msgstr ""
+"We hope its development will later be resumed (by us or by new "
+"contributors), but it is currently deprecated."
 
 #: ../../index.rst:88
 msgid "`Page de développement <http://github.com/patacrep/patagui>`__"
-msgstr ""
+msgstr "`Development page <http://github.com/patacrep/patagui>`__"
 
 #: ../../index.rst:91
 msgid "pataextra"
-msgstr ""
+msgstr "pataextra"
 
 #: ../../index.rst:93
 msgid ""
-"Quelques outils pour manipuler les chansons sont disponibles dans ce "
-"projet. Malheureusement, ce projet est peu maintenu, les outils sont peu "
-"documentés, et peut-être obsolètes."
+"Quelques outils pour manipuler les chansons sont disponibles dans ce projet. "
+"Malheureusement, ce projet est peu maintenu, les outils sont peu documentés, "
+"et peut-être obsolètes."
 msgstr ""
+"Some tools to manipulate songs are available in this project. Unfortunately, "
+"this project is little maintained, its tools are little documented and "
+"perhaps deprecated."
 
 #: ../../index.rst:97
 msgid "`Page de développement <http://github.com/patacrep/pataextra>`__"
-msgstr ""
+msgstr "`Development page <http://github.com/patacrep/pataextra>`__"
 
 #: ../../index.rst:100
 msgid "Outils externes"
-msgstr ""
+msgstr "External tools"
 
 #: ../../index.rst:102
 msgid "Voici quelques outils que l'utilisateur pourrait avoir à manipuler."
-msgstr ""
+msgstr "The user might have to deal with the following tools."
 
 #: ../../index.rst:105
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: ../../index.rst:107
 msgid ""
 "L'ensemble d'outils `patacrep` produit un fichier LaTeX, qui est compilé "
-"pour devenir un carnet de chants au format PDF. Les chansons peuvent "
-"êtres écrites en :ref:`chordpro <chordpro>`, mais il est possible "
-":ref:`d'utiliser directement LaTeX <latex>`, auquel cas il pourra être "
-"utile de se familiariser avec cet outil, avec par exemple `Une courte (?)"
-" introduction à LaTeX2e <http://mirrors.ctan.org/info/lshort/french"
-"/lshort-fr.pdf>`_ (`original en anglais "
-"<http://mirrors.ctan.org/info/lshort/english/lshort.pdf>`_)."
+"pour devenir un carnet de chants au format PDF. Les chansons peuvent êtres "
+"écrites en :ref:`chordpro <chordpro>`, mais il est possible :ref:`d'utiliser "
+"directement LaTeX <latex>`, auquel cas il pourra être utile de se "
+"familiariser avec cet outil, avec par exemple `Une courte (?) introduction à "
+"LaTeX2e <http://mirrors.ctan.org/info/lshort/french/lshort-fr.pdf>`_ "
+"(`original en anglais <http://mirrors.ctan.org/info/lshort/english/lshort."
+"pdf>`_)."
 msgstr ""
+"The `patacrep` set of tools produces a LaTeX file, which is compiled into a "
+"songbook in the PDF format. The songs can be written in :ref:`chordpro "
+"<chordpro>`, but it is possible :ref:`to use LaTeX <latex>` directly; in "
+"this case it could be useful to get familiar with this tool, with for "
+"instance `The Not So Short Introduction to LaTeX2e <http://mirrors.ctan.org/"
+"info/lshort/english/lshort.pdf>`_."
 
 #: ../../index.rst:116
 msgid "Songs"
-msgstr ""
+msgstr "Songs"
 
 #: ../../index.rst:118
 msgid ""
@@ -195,57 +228,74 @@ msgid ""
 "anglais) est utilisé pour rendre les chansons, et en particulier pour "
 "marquer les accords."
 msgstr ""
+"In particular, the `songs <http://songs.sourceforge.net>`_ package "
+"(`documentation <http://songs.sourceforge.net/songsdoc/songs.html>`_) is "
+"used to render the songs, and especially to place the chords."
 
 #: ../../index.rst:123
-msgid "Les cas d'utilisation de base sont expliqués dans la section :ref:`song`."
-msgstr ""
+msgid ""
+"Les cas d'utilisation de base sont expliqués dans la section :ref:`song`."
+msgstr "The basic use cases are explained in section :ref:`song`."
 
 #: ../../index.rst:126
 msgid "Lilypond"
-msgstr ""
+msgstr "Lilypond"
 
 #: ../../index.rst:128
 msgid ""
-"Il est possible d'intégrer des partitions aux chansons. Si ces partitions"
-" peuvent être intégrées comme des images (JPG, PNG, PDF) en utilisant la "
-":ref:`directive <directive>` ``image``, `Lilypond` permet de manipuler "
-"les partitions écrites au format Lilypond."
+"Il est possible d'intégrer des partitions aux chansons. Si ces partitions "
+"peuvent être intégrées comme des images (JPG, PNG, PDF) en utilisant la :ref:"
+"`directive <directive>` ``image``, `Lilypond` permet de manipuler les "
+"partitions écrites au format Lilypond."
 msgstr ""
+"It is possible to add scores to the songs. If these scores can be integrated "
+"as pictures (JPG, PNG, PDF) using the :ref:`directive <directive>` "
+"``image``, `Lilypond`allows to manipulate scores written in the Lilypond "
+"format."
 
 #: ../../index.rst:133
 msgid ""
-"Plus d'informations dans la section :ref:`partitions`, et sur le `site du"
-" projet <http://www.lilypond.org/>`_."
+"Plus d'informations dans la section :ref:`partitions`, et sur le `site du "
+"projet <http://www.lilypond.org/>`_."
 msgstr ""
+"Additional information in section :ref:`partitions`, and on the `project "
+"site <http://www.lilypond.org/>`_."
 
 #: ../../index.rst:137
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../index.rst:139
 msgid ""
-"`Python <http://python.org>`_ est le langage de programmation utilisé "
-"pour écrire la majeure partie des outils de `patacrep`. S'il n'est pas "
-"nécessaire d'avoir entendu parler de ce langage pour créer un carnet de "
-"chant, c'est en Python que peuvent être écrites des extensions permettant"
-" d'inclure de nouveaux formats de contenu aux carnets de chant. Voir la "
-"section :ref:`plugins_write` pour plus d'informations."
+"`Python <http://python.org>`_ est le langage de programmation utilisé pour "
+"écrire la majeure partie des outils de `patacrep`. S'il n'est pas nécessaire "
+"d'avoir entendu parler de ce langage pour créer un carnet de chant, c'est en "
+"Python que peuvent être écrites des extensions permettant d'inclure de "
+"nouveaux formats de contenu aux carnets de chant. Voir la section :ref:"
+"`plugins_write` pour plus d'informations."
 msgstr ""
+"`Python <http://python.org>`_ is the programming language used to write most "
+"of the `patacrep` tools. Though it is not necessary to have heard about this "
+"language to create a songbook, Python will be used to write extensions "
+"allowing to include new formats of content to the songbooks. See section :"
+"ref:`plugins_write` for more information."
 
 #: ../../index.rst:147
 msgid "jinja2"
-msgstr ""
+msgstr "jinja2"
 
 #: ../../index.rst:149
 msgid ""
-"`Jinja2 <http://jinja.pocoo.org/>`_ est le moteur utilisé pour écrire les"
-" templates. Bien qu'écrit en Python, la connaissance de ce langage n'est "
+"`Jinja2 <http://jinja.pocoo.org/>`_ est le moteur utilisé pour écrire les "
+"templates. Bien qu'écrit en Python, la connaissance de ce langage n'est "
 "nécessaire que pour des cas d'utilisation avancés."
 msgstr ""
+"`Jinja2 <http://jinja.pocoo.org/>`_ is the engine used to write templates. "
+"Though it is written in Python, knowing this language is only required for "
+"advanced use cases."
 
 #: ../../index.rst:153
 msgid ""
-"L'utilisation pour les cas de base est décrite dans la section "
-":ref:`templates`."
-msgstr ""
-
+"L'utilisation pour les cas de base est décrite dans la section :ref:"
+"`templates`."
+msgstr "Basic cases use is described in section :ref:`templates`."
